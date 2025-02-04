@@ -117,7 +117,7 @@ ol {
   border: 1px solid currentColor;
   border-right: none;
   border-left: none;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: inherit;
   font-weight: 400;
   font-size: inherit;
   line-height: 21.6px;
@@ -182,7 +182,7 @@ button {
   color: currentColor;
   border: 1px solid currentColor;
   text-align: center;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: inherit;
   font-weight: 700;
   font-size: inherit;
   line-height: 21.6px;
