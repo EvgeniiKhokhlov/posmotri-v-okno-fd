@@ -45,7 +45,6 @@ ol {
 .content {
   display: grid;
   width: 1140px;
-  min-height: 534px;
   justify-content: center;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
@@ -194,7 +193,7 @@ button {
  }
 
 button:active {
-  background-color: currentColor;
+  background-color: #545050;
 }
 
 button:hover {
@@ -265,6 +264,10 @@ outline: medium double currentColor;
   cursor: pointer;
 }
 
+.content__card-link:active {
+  background-color: #545050;
+}
+
 .content__card-link_current {
   background-color: #545050;
 }
@@ -273,7 +276,6 @@ outline: medium double currentColor;
   display:flex;
   flex-direction: row;
   justify-content:space-between;
-  
 }
 
 .content__video-card-title {
